@@ -13,6 +13,8 @@
 		56A42A3B211D30CD0016578C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56A42A3A211D30CD0016578C /* Assets.xcassets */; };
 		56A42A3E211D30CD0016578C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56A42A3C211D30CD0016578C /* LaunchScreen.storyboard */; };
 		56FE6023211D3CC700A9799C /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE6022211D3CC700A9799C /* CategoryCell.swift */; };
+		56FE6025211D6D1E00A9799C /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE6024211D6D1E00A9799C /* Category.swift */; };
+		56FE6028211D6DE900A9799C /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FE6027211D6DE900A9799C /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		56A42A3D211D30CD0016578C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56A42A3F211D30CD0016578C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56FE6022211D3CC700A9799C /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		56FE6024211D6D1E00A9799C /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		56FE6027211D6DE900A9799C /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		56A42A32211D30CD0016578C /* CodeSwag */ = {
 			isa = PBXGroup;
 			children = (
+				56FE6026211D6DD800A9799C /* Service */,
 				56A42A47211D31CB0016578C /* Controller */,
 				56A42A46211D31C60016578C /* View */,
 				56A42A45211D31C10016578C /* Model */,
@@ -71,6 +76,7 @@
 		56A42A45211D31C10016578C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				56FE6024211D6D1E00A9799C /* Category.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -89,6 +95,14 @@
 				56A42A35211D30CD0016578C /* CategoriesVC.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		56FE6026211D6DD800A9799C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				56FE6027211D6DE900A9799C /* DataService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +180,8 @@
 				56A42A36211D30CD0016578C /* CategoriesVC.swift in Sources */,
 				56A42A34211D30CD0016578C /* AppDelegate.swift in Sources */,
 				56FE6023211D3CC700A9799C /* CategoryCell.swift in Sources */,
+				56FE6025211D6D1E00A9799C /* Category.swift in Sources */,
+				56FE6028211D6DE900A9799C /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
