@@ -1,5 +1,5 @@
 # CodeSwag
-Online store to purchase items related to coding
+Code Swag is an Online store to purchase items related to coding developed in Swift4
 
 Implemented
 -----------------
